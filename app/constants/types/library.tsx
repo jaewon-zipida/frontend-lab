@@ -1,5 +1,10 @@
 export type LibraryCardProps = {
+    number: string;
     title: string;
-    content: string;
-    like: number;
+    onMoveDetail: (number: string) => void;
+};
+
+export type LibraryTitleProps = {
+    number: string | string[] | undefined;
+    children: string;
 };

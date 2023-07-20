@@ -1,0 +1,13 @@
+@use "styles/palette";
+@use 'styles/font';
+
+.container {
+    width: 100%;
+    padding: 40px 35px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid palette.$gray100;
+    font-size: font.$size-16;
+    background-color: palette.$white;
+}
