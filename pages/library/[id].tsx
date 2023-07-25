@@ -8,8 +8,8 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
 const detailData = [
-    { id: "01", title: "텍스트에디터 만들기" },
-    { id: "02", title: "SNS 카카오 로그인" },
+    { id: "01", title: "텍스트에디터 꾸미기(feat. react-quill)" },
+    { id: "02", title: "텍스트에디터 꾸미기(feat. ckEditor)" },
     { id: "03", title: "주소 검색 API 구현하기" },
     { id: "04", title: "웹 뷰를 모바일로 얹히기" },
 ];

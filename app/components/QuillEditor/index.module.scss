@@ -1,5 +1,17 @@
-.quill {
-    /* 원하는 border-radius 값으로 변경하세요 */
-    border-radius: 10px;
-    border: 1px solid red;
+.main {
+    .editorContainer {
+        > div {
+            background-color: yellow;
+            > div {
+                > div {
+                    strong {
+                        font-weight: bold !important;
+                    }
+                    em {
+                        font-style: italic !important;
+                    }
+                }
+            }
+        }
+    }
 }
