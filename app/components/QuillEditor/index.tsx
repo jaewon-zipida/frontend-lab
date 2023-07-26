@@ -1,5 +1,4 @@
 import { useMemo, useRef, useState } from "react";
-import styles from "./index.module.scss";
 import "/react-quill/dist/quill.snow.css"; // Quill 스타일시트
 import ReactQuill from "react-quill";
 import classNames from "classnames";
@@ -12,7 +11,7 @@ type QuillProps = {
 function QuillEditor({ value, onChange }: QuillProps) {
     const quillRef = useRef<any>(null);
     const [selectedColor, setSelectedColor] = useState<string>("");
-    const editorContainerClassName = classNames(styles.editorContainer);
+
     const handleColorChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
         const selectedValue = event.target.value;
         console.log("selectedValue : ", selectedValue);
@@ -65,24 +64,19 @@ function QuillEditor({ value, onChange }: QuillProps) {
     ];
 
     return (
-        <div className={styles.main}>
+        <div>
             <CustomToolbar handleColorChange={handleColorChange} selectedColor={selectedColor} />
-            <select onChange={(e) => console.log(e.target.value)}>
-                <option value="1">1</option>
-                <option value="2">2</option>
-            </select>
-            <div className={editorContainerClassName}>
-                <ReactQuill
-                    ref={quillRef}
-                    onChange={onChange}
-                    // className={styles.quill}
-                    modules={modules}
-                    formats={formats}
-                    value={value}
-                    placeholder={"후원받고자 하는 동물의 자세한 정보를 입력해주세요!"}
-                    theme="snow" // 테마 선택 (snow, bubble 중 선택)
-                />
-            </div>
+
+            <ReactQuill
+                ref={quillRef}
+                onChange={onChange}
+                // className={styles.quill}
+                modules={modules}
+                formats={formats}
+                value={value}
+                placeholder={"후원받고자 하는 동물의 자세한 정보를 입력해주세요!"}
+                theme="snow" // 테마 선택 (snow, bubble 중 선택)
+            />
         </div>
     );
 }

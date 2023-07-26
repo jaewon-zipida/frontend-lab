@@ -127,3 +127,25 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+// DetailTemplate01 전용 CSS
+.ql-toolbar.ql-snow {
+    background-color: #f7f7f7;
+}
+.quill {
+    background-color: #ffffff;
+}
+
+// DetailTemplate02 전용 CSS
+
+.ck-rounded-corners .ck.ck-editor__top .ck-sticky-panel .ck-toolbar,
+.ck.ck-editor__top .ck-sticky-panel .ck-toolbar.ck-rounded-corners {
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+    background-color: #f7f7f7;
+}
+.ck-rounded-corners .ck.ck-editor__main > .ck-editor__editable,
+.ck.ck-editor__main > .ck-editor__editable.ck-rounded-corners {
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+}

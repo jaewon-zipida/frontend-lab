@@ -21,8 +21,14 @@ function Home() {
                 title="텍스트에디터 꾸미기(feat. ckEditor)"
                 onMoveDetail={onMoveDetail}
             />
-            <Card number="03" title="주소검색 API 구현하기" onMoveDetail={onMoveDetail} />
-            <Card number="04" title="웹뷰 모바일로 얹히기" onMoveDetail={onMoveDetail} />
+            <Card
+                number="03"
+                title="카카오/네이버/구글 로그인 구현하기"
+                onMoveDetail={onMoveDetail}
+            />
+            <Card number="04" title="주소검색 API 구현하기" onMoveDetail={onMoveDetail} />
+            <Card number="05" title="웹뷰 모바일로 얹히기" onMoveDetail={onMoveDetail} />
+            <Card number="06" title="웹뷰 모바일로 얹히기" onMoveDetail={onMoveDetail} />
         </div>
     );
 }
