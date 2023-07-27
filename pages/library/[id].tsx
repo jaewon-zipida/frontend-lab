@@ -6,6 +6,7 @@ import DetailTemplate03 from "@/templates/DetailTemplate03";
 import DetailTemplate04 from "@/templates/DetailTemplate04";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import DetailTemplate05 from "/app/templates/DetailTemplate05";
 
 const detailData = [
     { id: "01", title: "텍스트에디터 꾸미기(feat. react-quill)" },
@@ -34,6 +35,7 @@ function LibraryDetail() {
             {id === "02" && <DetailTemplate02 />}
             {id === "03" && <DetailTemplate03 />}
             {id === "04" && <DetailTemplate04 />}
+            {id === "05" && <DetailTemplate05 />}
         </Area>
     );
 }
