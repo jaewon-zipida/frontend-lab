@@ -27,8 +27,19 @@ function Home() {
                 onMoveDetail={onMoveDetail}
             />
             <Card number="04" title="주소검색 API 구현하기" onMoveDetail={onMoveDetail} />
-            <Card number="05" title="웹뷰 모바일로 얹히기" onMoveDetail={onMoveDetail} />
-            <Card number="06" title="웹뷰 모바일로 얹히기" onMoveDetail={onMoveDetail} />
+            <Card number="05" title="웹뷰 모바일로 이식하기" onMoveDetail={onMoveDetail} />
+            <Card number="06" title="드래그 앤 드랍 구현하기" onMoveDetail={onMoveDetail} />
+            <Card number="07" title="스켈레톤 적용하기" onMoveDetail={onMoveDetail} />
+            <Card
+                number="08"
+                title="무한스크롤링에 화면이동 시 높이값 유지 구현하기"
+                onMoveDetail={onMoveDetail}
+            />
+            <Card
+                number="09"
+                title="useForm, yup 사용해서 유효성 검사 로직 짜기"
+                onMoveDetail={onMoveDetail}
+            />
         </div>
     );
 }

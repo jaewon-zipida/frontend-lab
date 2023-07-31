@@ -13,7 +13,11 @@ const detailData = [
     { id: "02", title: "텍스트에디터 꾸미기(feat. ckEditor)" },
     { id: "03", title: "카카오/네이버/구글 로그인 구현하기" },
     { id: "04", title: "주소 검색 API 구현하기" },
-    { id: "05", title: "웹 뷰를 모바일로 얹히기" },
+    { id: "05", title: "웹 뷰를 모바일로 이식하기" },
+    { id: "06", title: "드래그 앤 드랍 구현하기" },
+    { id: "07", title: "스켈레톤 적용하기" },
+    { id: "08", title: "무한스크롤링에 화면이동 시 높이값 유지 구현하기" },
+    { id: "09", title: "useForm, yup 사용해서 유효성 검사 로직 짜기" },
 ];
 
 function LibraryDetail() {
