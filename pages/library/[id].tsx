@@ -17,7 +17,7 @@ const detailData = [
     { id: "06", title: "드래그 앤 드랍 구현하기" },
     { id: "07", title: "스켈레톤 적용하기" },
     { id: "08", title: "무한스크롤링에 화면이동 시 높이값 유지 구현하기" },
-    // { id: "09", title: "useForm, yup 사용해서 유효성 검사 로직 짜기" },
+    { id: "09", title: "useForm, yup 사용해서 유효성 검사 로직 짜기" },
 ];
 
 function LibraryDetail() {
