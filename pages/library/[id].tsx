@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 import DetailTemplate05 from "/app/templates/DetailTemplate05";
 
 const detailData = [
-    // { id: "01", title: "텍스트에디터 꾸미기(feat. react-quill)" },
+    { id: "01", title: "텍스트에디터 꾸미기(feat. react-quill)" },
     { id: "02", title: "텍스트에디터 꾸미기(feat. ckEditor)" },
     { id: "03", title: "카카오/네이버/구글 로그인 구현하기" },
     { id: "04", title: "주소 검색 API 구현하기" },
